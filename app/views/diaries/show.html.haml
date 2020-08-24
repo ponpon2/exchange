@@ -1,0 +1,48 @@
+.mypage-headder
+  = render "share/header"
+.mypage
+  .mypage__topics
+    .heading
+      Frends
+    %ul.diaries
+      %li.diaries__diary  
+        .diaries__diary--image
+          = link_to "#" do
+            = image_tag "3282473_s.jpg"
+        .diaries__diary--text
+          みかん
+      %li.diaries__diary
+        .diaries__diary--image
+          = link_to "#" do
+            = image_tag "3282473_s.jpg"
+        .diaries__diary--text
+          りんご
+      %li.diaries__diary
+        .diaries__diary--image
+          = link_to "#" do
+            = image_tag "3282473_s.jpg"
+        .diaries__diary--text
+          イチゴ
+  .mypage__profile
+    .heading
+      Profile
+    %ul.items
+      %li.items__note
+        Name
+        .item
+          
+      %li.items__note
+        Birthday
+        .item
+          
+      %li.items__note
+        BloodType
+        .item
+          
+      %li.items__note
+        Sign
+        .item
+          
+.mypage-footer
+  = render "share/footer"
+

@@ -1,0 +1,10 @@
+.header
+  %section.header__upper
+    .headlogo
+      = link_to root_path do
+        = image_tag "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcN7VrBWeAhbjD81Cp0HcJv0iEYCoMcIW5yA&usqp=CAU", class: "headlogo__img"
+    %ul.contents
+      %li.contents__logout-btn
+        = link_to "log out", "#"
+      %li.contents__help-btn
+        = link_to "help", "#"
